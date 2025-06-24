@@ -6,6 +6,7 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const morgan = require('morgan');
 const FormData = require('form-data');
+const cors = require('cors');
 
 const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
@@ -14,6 +15,10 @@ const upload = multer({ storage: multer.memoryStorage() });
 app.use(helmet());
 app.use(morgan('combined'));
 app.use(express.json());
+
+app.use(cors({
+  origin: '*'
+}));
 
 // Rate limiting
 const limiter = rateLimit({
