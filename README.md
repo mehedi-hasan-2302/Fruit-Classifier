@@ -1,4 +1,4 @@
-# Fruit Classifier API
+# Fruit Classifier
 
 A full-stack project for fruit image classification using a deep learning model served by Flask (Python), an API Gateway built with Express.js (Node.js), and a modern Next.js frontend.
 
@@ -7,7 +7,7 @@ A full-stack project for fruit image classification using a deep learning model 
 ## Project Structure
 
 ```
-Fruit-Classifier-API/
+Fruit-Classifier/
 ├── backend/
 │   ├── api-gateway/         # Node.js Express API Gateway
 │   │   ├── app.js
@@ -41,10 +41,10 @@ Fruit-Classifier-API/
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/yourusername/Fruit-Classifier-API.git
+git clone https://github.com/yourusername/Fruit-Classifier.git
 ```
 ```sh
-cd Fruit-Classifier-API
+cd Fruit-Classifier
 ```
 
 ### 2. Setup the Model Service (Python)
