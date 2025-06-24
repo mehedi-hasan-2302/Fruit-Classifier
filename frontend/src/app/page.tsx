@@ -196,7 +196,7 @@ export default function Home() {
       <footer className="mt-8 text-gray-400 text-xs text-center">
         Powered by <a href="https://nextjs.org/" className="underline hover:text-indigo-600">Next.js</a>, <a href="https://tailwindcss.com/" className="underline hover:text-indigo-600">Tailwind CSS</a>, and Fruit Classifier API
         <br />
-        <a href="https://github.com/yourusername/Fruit-Classifier-API" className="underline hover:text-indigo-600">GitHub Repo</a>
+        <a href="https://github.com/mehedi-hasan-2302/Fruit-Classifier" className="underline hover:text-indigo-600">GitHub Repo</a>
       </footer>
     </div>
   );
